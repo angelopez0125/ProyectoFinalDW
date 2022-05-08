@@ -1,0 +1,146 @@
+CRITICAL - 2022-05-07 14:29:09 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->iniciarSesionCiudadano()
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-07 14:29:49 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php on line 32
+#0 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php(32): view('ciudadanos/list...', NULL)
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->iniciarSesionCiudadano()
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 14:39:27 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ProyectoDw-201705336\app\Views\ciudadanos\lista_ciudadano.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\Common.php(1089): CodeIgniter\View\View->render('ciudadanos/list...', Array, true)
+#4 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php(31): view('ciudadanos/list...')
+#5 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->iniciarSesionCiudadano()
+#6 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#7 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-07 14:39:48 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php on line 31
+#0 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php(31): view('ciudadanos/list...', NULL)
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->iniciarSesionCiudadano()
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 14:39:57 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php on line 31
+#0 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php(31): view('ciudadanos/list...', NULL)
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->iniciarSesionCiudadano()
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 14:41:00 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\ProyectoDw-201705336\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-07 14:41:32 --> Call to undefined function App\Controllers\cargarCiudadanos()
+#0 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->iniciarSesionCiudadano()
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-07 14:41:52 --> Call to undefined function App\Controllers\cargarCiudadanos()
+#0 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->iniciarSesionCiudadano()
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-07 19:21:50 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\ProyectoDw-201705336\system\Database\Query.php(318): strtr('SELECT *\nFROM `...', Array)
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\ProyectoDw-201705336\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\ProyectoDw-201705336\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\ProyectoDw-201705336\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php(32): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->iniciarSesionCiudadano()
+#9 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#10 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-07 19:25:04 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php on line 33
+#0 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php(33): view('ciudadanos/form...', Object(stdClass))
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->iniciarSesionCiudadano()
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:30:59 --> Illegal offset type
+#0 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->iniciarSesionCiudadano()
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-07 19:31:26 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php on line 34
+#0 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Ciudadanos.php(34): view('ciudadanos/list...', NULL)
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Ciudadanos->iniciarSesionCiudadano()
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ciudadanos))
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-07 20:38:03 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-05-07 20:38:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\ProyectoDw-201705336\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Sesiones.php(18): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Sesiones->iniciarSesion()
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesiones))
+#4 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-07 20:38:36 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-05-07 20:38:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\ProyectoDw-201705336\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Sesiones.php(18): CodeIgniter\Database\BaseConnection->query('select * from u...')
+#2 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Sesiones->iniciarSesion()
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesiones))
+#4 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-07 21:04:53 --> Duplicate entry 'moisespaz' for key 'usuario'
+ERROR - 2022-05-07 21:05:53 --> Duplicate entry '1053260141016' for key 'PRIMARY'
+ERROR - 2022-05-07 21:51:43 --> Duplicate entry '1053260141016' for key 'PRIMARY'
+CRITICAL - 2022-05-07 21:51:51 --> Invalid file: sesiones/inicio_sesion.php
+#0 C:\xampp\htdocs\ProyectoDw-201705336\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sesiones/inicio...')
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\Common.php(1089): CodeIgniter\View\View->render('sesiones/inicio...', Array, true)
+#2 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Sesiones.php(46): view('sesiones/inicio...')
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Sesiones->iniciarSesion()
+#4 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesiones))
+#5 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 21:54:18 --> Invalid file: departamentos/lista_departamentos.php
+#0 C:\xampp\htdocs\ProyectoDw-201705336\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('departamentos/l...')
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\Common.php(1089): CodeIgniter\View\View->render('departamentos/l...', Array, true)
+#2 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Departamentos.php(78): view('departamentos/l...', Array)
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Departamentos->modificarDepartamento()
+#4 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+#5 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 21:55:37 --> Invalid file: departamentos/lista_departamentos.php
+#0 C:\xampp\htdocs\ProyectoDw-201705336\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('departamentos/l...')
+#1 C:\xampp\htdocs\ProyectoDw-201705336\system\Common.php(1089): CodeIgniter\View\View->render('departamentos/l...', Array, true)
+#2 C:\xampp\htdocs\ProyectoDw-201705336\app\Controllers\Departamentos.php(78): view('departamentos/l...', Array)
+#3 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(832): App\Controllers\Departamentos->modificarDepartamento()
+#4 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departamentos))
+#5 C:\xampp\htdocs\ProyectoDw-201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoDw-201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-07 21:55:42 --> Duplicate entry '1' for key 'PRIMARY'

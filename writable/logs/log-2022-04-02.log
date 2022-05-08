@@ -1,0 +1,62 @@
+CRITICAL - 2022-04-02 09:48:34 --> Class "App\Controllers\Grado" not found
+#0 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Grados->cargarGrados()
+#1 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grados))
+#2 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-02 10:28:53 --> Class "App\Controllers\Grado" not found
+#0 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Grados->cargarGrados()
+#1 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grados))
+#2 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-02 10:40:17 --> Undefined variable $grado
+#0 C:\xampp\htdocs\Act18demarzo\app\Views\grados\form_modificar_grado.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Act18demarzo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Act18demarzo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Act18demarzo\system\Common.php(1089): CodeIgniter\View\View->render('grados/form_mod...', Array, true)
+#4 C:\xampp\htdocs\Act18demarzo\app\Controllers\Grados.php(56): view('grados/form_mod...', Array)
+#5 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Grados->frmModificarGrado('1')
+#6 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grados))
+#7 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-02 12:03:27 --> Table 'dw2022_biblioteca.estudiante' doesn't exist
+CRITICAL - 2022-04-02 12:03:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Act18demarzo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\Act18demarzo\app\Controllers\Estudiantes.php(13): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Estudiantes->cargarEstudiantes()
+#3 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiantes))
+#4 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-02 12:07:03 --> Table 'dw2022_biblioteca.estudiante' doesn't exist
+CRITICAL - 2022-04-02 12:07:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Act18demarzo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\Act18demarzo\app\Controllers\Estudiantes.php(13): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Estudiantes->cargarEstudiantes()
+#3 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiantes))
+#4 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-02 12:08:13 --> Unknown column 'codigo_estudiante' in 'order clause'
+CRITICAL - 2022-04-02 12:08:13 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Act18demarzo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\Act18demarzo\app\Controllers\Estudiantes.php(24): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Estudiantes->eliminarEstudiante('2013250')
+#3 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiantes))
+#4 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-02 12:09:17 --> Unknown column 'codigo_estudiante' in 'where clause'
+CRITICAL - 2022-04-02 12:09:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Act18demarzo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\Act18demarzo\app\Controllers\Estudiantes.php(68): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Estudiantes->frmModificarEstudiante('2013249')
+#3 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiantes))
+#4 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-02 12:10:52 --> Cannot add or update a child row: a foreign key constraint fails (`dw2022_biblioteca`.`estudiantes`, CONSTRAINT `estudiantes_ibfk_1` FOREIGN KEY (`codigo_grado`) REFERENCES `grados` (`codigo_grado`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-04-02 20:37:18 --> Cannot add or update a child row: a foreign key constraint fails (`dw2022_biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_2` FOREIGN KEY (`carne_alumno`) REFERENCES `estudiantes` (`carne_alumno`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-04-02 20:37:30 --> Cannot add or update a child row: a foreign key constraint fails (`dw2022_biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_2` FOREIGN KEY (`carne_alumno`) REFERENCES `estudiantes` (`carne_alumno`) ON DELETE CASCADE ON UPDATE CASCADE)

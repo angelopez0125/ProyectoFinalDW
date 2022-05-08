@@ -1,0 +1,61 @@
+CRITICAL - 2022-03-30 01:45:33 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-03-30 01:55:33 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-03-30 01:55:34 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-03-30 18:44:00 --> Undefined variable $autor
+#0 C:\xampp\htdocs\Act18demarzo\app\Controllers\Editoriales.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Editoriales->cargarEditoriales()
+#2 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Editoriales))
+#3 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-30 18:44:36 --> Invalid file: editorial/lista_editorial.php
+#0 C:\xampp\htdocs\Act18demarzo\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editorial/lista...')
+#1 C:\xampp\htdocs\Act18demarzo\system\Common.php(1089): CodeIgniter\View\View->render('editorial/lista...', Array, true)
+#2 C:\xampp\htdocs\Act18demarzo\app\Controllers\Editoriales.php(14): view('editorial/lista...', Array)
+#3 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Editoriales->cargarEditoriales()
+#4 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Editoriales))
+#5 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-30 18:53:24 --> Undefined variable $misEmpleados
+#0 C:\xampp\htdocs\Act18demarzo\app\Views\editoriales\lista_editorial.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Act18demarzo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Act18demarzo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Act18demarzo\system\Common.php(1089): CodeIgniter\View\View->render('editoriales/lis...', Array, true)
+#4 C:\xampp\htdocs\Act18demarzo\app\Controllers\Editoriales.php(14): view('editoriales/lis...', Array)
+#5 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Editoriales->cargarEditoriales()
+#6 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Editoriales))
+#7 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 18:54:15 --> Invalid file: autores/form_nuevo_editorial.php
+#0 C:\xampp\htdocs\Act18demarzo\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autores/form_nu...')
+#1 C:\xampp\htdocs\Act18demarzo\system\Common.php(1089): CodeIgniter\View\View->render('autores/form_nu...', Array, true)
+#2 C:\xampp\htdocs\Act18demarzo\app\Controllers\Editoriales.php(30): view('autores/form_nu...')
+#3 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Editoriales->verFormularioNuevoEditorial()
+#4 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Editoriales))
+#5 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-30 18:56:58 --> Undefined constant "App\Controllers\txtEmail"
+#0 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(832): App\Controllers\Editoriales->guardarEditoriales()
+#1 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Editoriales))
+#2 C:\xampp\htdocs\Act18demarzo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Act18demarzo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-30 19:02:05 --> Duplicate entry '100000' for key 'PRIMARY'
